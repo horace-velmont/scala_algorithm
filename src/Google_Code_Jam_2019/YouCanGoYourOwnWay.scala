@@ -5,7 +5,6 @@ import java.io.FileInputStream
 import scala.io.StdIn
 
 object YouCanGoYourOwnWay extends App {
-  Console.setIn(new FileInputStream("example.in"))
 
   def solve(tcNumber: BigInt, path: String): String = {
     path.map {

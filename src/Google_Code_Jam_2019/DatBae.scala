@@ -1,11 +1,10 @@
 package Google_Code_Jam_2019
 
-import java.io.FileInputStream
 
 import scala.io.StdIn
 
 object DatBae extends App {
-  Console.setIn(new FileInputStream("example.in"))
+
   val cases = StdIn.readLine().toInt
   (1 to cases) foreach { i => {
     println(solve(i))
